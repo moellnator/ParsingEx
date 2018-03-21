@@ -63,6 +63,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CST\Item.vb" />
+    <Compile Include="CST\NonTerminating.vb" />
+    <Compile Include="CST\Terminating.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -78,6 +81,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Parser.vb" />
     <Compile Include="State.vb" />
   </ItemGroup>
   <ItemGroup>

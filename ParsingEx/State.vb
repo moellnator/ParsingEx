@@ -4,6 +4,18 @@
     Private _disposed As Boolean
     Private _current_pos As Integer
 
+    Public ReadOnly Property CurrentPosition As Integer
+        Get
+            Return Me._current_pos
+        End Get
+    End Property
+
+    Public ReadOnly Property Code As String
+        Get
+            Return Me._code
+        End Get
+    End Property
+
     Public Sub New(code As String)
         Me._code = code
         Me.Reset()
